@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="frmLatihan" method="get" action="#">
+        <table border="350" align="center" cellpadding="15" width="50%">
+            <thead>
+                <tr bgcolor="pink">
+                    <th colspan="2">Latihan Form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="20%">Nama</td>
+                    <td>
+                        <input type="text" name="nama" value="" placeholder="Nama Lengkap" maxlength="50" size="70">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="email" value="" placeholder="E-mail" maxlength="100" size="70"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="pass" value="" placeholder="Password.."></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" name="Gender" value="L" >Laki-Laki
+                        <input type="radio" name="Gender" value="P" >Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">Hobby</td>
+                    <td>
+                        <input type="checkbox" name="hobby" value="Membaca" >Membaca <br>
+                        <input type="checkbox" name="hobby" value="Olahraga" >Olahraga <br>
+                        <input type="checkbox" name="hobby" value="Menonton" >Menonton <br>
+                        <input type="checkbox" name="hobby" value="Travell" >Travell
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pendidikan Terakhir</td>
+                    <td>
+                        <select name="Pendidikan">
+                            <option value="">-- Pilih Pendidikan --</option>
+                            <option value="SMA">SMA</option>
+                            <option value="D3">D3</option>
+                            <option value="S1">S1</option>
+                            <option value="S2">S2</option>
+                            <option value="S3">S3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">Komentar</td>
+                    <td>
+                        <textarea name="Komentar" cols="68" rows="10" placeholder="Komentar Anda.."></textarea>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr bgcolor="pink">
+                    <td colspan="2" align="center">
+                        <input type="submit" name="Proses" value="Kirim">
+                        <input type="reset" name="UnProses" value="Batal">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
